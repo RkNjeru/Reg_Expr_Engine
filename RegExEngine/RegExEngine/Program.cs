@@ -10,6 +10,7 @@ namespace RegExEngine
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the Regular Expression Engine");
         }
     }
 }

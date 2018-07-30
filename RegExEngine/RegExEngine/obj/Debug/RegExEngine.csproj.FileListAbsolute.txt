@@ -1,1 +1,2 @@
 C:\Users\roynj\OneDrive\Documents\Projects\RegExEngine\RegExEngine\bin\Debug\RegExEngine.exe.config
+C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\bin\Debug\RegExEngine.exe.config
