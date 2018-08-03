@@ -7,3 +7,4 @@ C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\De
 C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.csproj.GenerateResource.Cache
 C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.exe
 C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.pdb
+C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.Properties.Resources.resources
