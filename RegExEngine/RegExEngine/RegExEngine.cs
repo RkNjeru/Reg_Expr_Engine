@@ -27,6 +27,7 @@ namespace RegExEngine
             {
                 // not a valid input
                 MessageBox.Show("You sumbited an invalid Regular Expression");
+                textBox1.Text = null;
             }
             else
             {
