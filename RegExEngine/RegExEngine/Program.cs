@@ -13,6 +13,7 @@ namespace RegExEngine
         {
             Application.Run(new RegExEngine());
 
+
         }
     }
 }

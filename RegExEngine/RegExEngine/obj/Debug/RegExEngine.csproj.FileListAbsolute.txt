@@ -8,3 +8,12 @@ C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\De
 C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.exe
 C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.pdb
 C:\Users\roynj\Documents\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.Properties.Resources.resources
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\bin\Debug\RegExEngine.exe.config
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.exe
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.pdb
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\bin\Debug\RegExEngine.exe
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\bin\Debug\RegExEngine.pdb
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.csprojResolveAssemblyReference.cache
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.Properties.Resources.resources
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.RegExEngine.resources
+C:\Users\User\Projects\Reg_Expr_Engine\RegExEngine\RegExEngine\obj\Debug\RegExEngine.csproj.GenerateResource.Cache
