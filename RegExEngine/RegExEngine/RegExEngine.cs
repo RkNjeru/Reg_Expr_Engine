@@ -31,7 +31,9 @@ namespace RegExEngine
             }
             else
             {
-                myNFA.myParser();
+                MessageBox.Show("You submitted a valid Regular Expression");
+
+                //myNFA.myParser();
             }
         }
     }

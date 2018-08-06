@@ -9,6 +9,7 @@ namespace RegExEngine
     class NFA
     {
         private string theRegEx;
+        private int op, cl;
         public NFA(string aRegExpr)
         {
             theRegEx = aRegExpr;
@@ -22,9 +23,45 @@ namespace RegExEngine
             {
                 return false;
             }
+            theRegEx.Trim();
+            theRegEx.Replace(" ", string.Empty);
+            
             // implement my own algorithm to check if input is valid
+            for (int i = 0; i < theRegEx.Length - 1; i++)
+            {
+                if (theRegEx[i].Equals('+'))
+                {
+                    if(theRegEx[i+1].Equals('.') || theRegEx[i+1].Equals('*') || theRegEx[i+1].Equals('(') || theRegEx[i+1].Equals(')') || theRegEx[i + 1].Equals('+')) { return false; }
+                }
+                if (theRegEx[i].Equals('.'))
+                {
+                    if(theRegEx[i + 1].Equals('+') || theRegEx[i + 1].Equals('.') || theRegEx[i + 1].Equals('*') || theRegEx[i + 1].Equals('(') || theRegEx[i + 1].Equals(')')) { return false; }
+                }
+                if (theRegEx[i].Equals('*'))
+                {
+                    if(theRegEx[i + 1].Equals('*') || theRegEx[i + 1].Equals('(')) { return false; }
+                }
+                if (theRegEx[i].Equals('('))
+                {
+                    if(theRegEx[i + 1].Equals('+') || theRegEx[i + 1].Equals('.') || theRegEx[i + 1].Equals('*')) { return false; }
+                }
+                if(theRegEx[i].Equals(')'))
+                {
+                    if (!theRegEx[i + 1].Equals('+') && !theRegEx[i + 1].Equals('.') && !theRegEx[i + 1].Equals('*') && !theRegEx[i + 1].Equals('(') && !theRegEx[i + 1].Equals(')')) { return false; }
+                }
 
-            return false;
+                // no repeating Literals e.g aa 
+                if (!theRegEx[i].Equals('+') && !theRegEx[i].Equals('.') && !theRegEx[i].Equals('*') && !theRegEx[i].Equals('(') && !theRegEx[i].Equals(')'))
+                {
+                    if (!theRegEx[i+1].Equals('+') && !theRegEx[i+1].Equals('.') && !theRegEx[i+1].Equals('*') && !theRegEx[i+1].Equals('(') && !theRegEx[i+1].Equals(')')) { return false; }
+                }
+                if (theRegEx[i].Equals('(')){ op++; }
+                if (theRegEx[i].Equals(')')){ cl++; }
+            }
+            if (op != cl) { return false; }
+            
+            
+            return true;
         }
 
         public void myParser()
